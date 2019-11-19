@@ -2,6 +2,15 @@
   .dark-nav {
     display: none;
   }
+  .articles {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas:
+      "main-article"
+      "side-article-1"
+      "side-article-2";
+    border: 1px solid black;
+  }
 }
 @media screen and (max-width: 470px) {
   .nav {
