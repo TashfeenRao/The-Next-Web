@@ -11,6 +11,11 @@
       "side-article-2";
     border: 1px solid black;
   }
+
+  .grid-articles {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fit,minmax(200px,1fr));
+  }
 }
 @media screen and (max-width: 470px) {
   .nav {
@@ -56,9 +61,13 @@
   .sm-nav-right li a:hover{
       color: black;
   }
+
+
 }
 @media screen and (min-width: 470px) {
   .nav-mob {
     display: none;
   }
+
+
 }
