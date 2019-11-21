@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
 }
 * a,
 li {
@@ -24,7 +24,6 @@ li {
   font-size: 13px;
   font-weight: 500;
   line-height: 32px;
-
 }
 .dark-nav-left-links {
   display: flex;
@@ -98,75 +97,72 @@ li {
   background-color: grey;
   background: linear-gradient(to bottom, transparent, rgb(163, 71, 61) 150%),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Copy-of-Copy-of-Copy-of-...-1-2-796x417.png")
-     no-repeat;
-    background-size: cover;
-    background-position: bottom right;
-    padding: 50px;
-
+      no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  padding: 50px;
 }
-.cover-logo{
+.cover-logo {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.article-header{
+.article-header {
   display: grid;
- align-self: flex-end;
+  align-self: flex-end;
 }
-.article-title{
+.article-title {
   font-size: 30px;
   color: white;
 }
-.title-catogery{
+.title-catogery {
   margin-top: 70px;
   margin-bottom: 0px;
   color: white;
   font-size: 20px;
-
 }
-.date{
-color: honeydew;
-justify-self: center;
+.date {
+  color: honeydew;
+  justify-self: center;
 }
-.title-bottom{
+.title-bottom {
   display: grid;
   grid-template-columns: 150px 100px 100px;
 }
 
-.title-bottom p{
+.title-bottom p {
   margin-top: 0px;
 }
-.title-bottom p a{
+.title-bottom p a {
   color: black;
 }
-.title-bottom p a:hover{
+.title-bottom p a:hover {
   color: white;
 }
 .side-article-1 {
   grid-area: side-article-1;
   background: linear-gradient(to bottom, transparent, rgb(163, 71, 61) 300%),
-  url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/pic-796x417.png")
-   no-repeat;
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/pic-796x417.png")
+      no-repeat;
   background-size: cover;
-
 }
 .side-article-2 {
   grid-area: side-article-2;
 
-    background: linear-gradient(to bottom, transparent, rgb(163, 71, 61) 150%),
-  url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Copy-of-Copy-of-...-1-796x417.png")
-   no-repeat;
+  background: linear-gradient(to bottom, transparent, rgb(163, 71, 61) 150%),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Copy-of-Copy-of-...-1-796x417.png")
+      no-repeat;
   background-size: cover;
 }
-.side-article-header{
+.side-article-header {
   display: grid;
   width: 400px;
- align-self: flex-end;
+  align-self: flex-end;
 }
-.side-article-title{
+.side-article-title {
   font-size: 20px;
   color: white;
 }
-.side-title-catogery{
+.side-title-catogery {
   font-size: 15px;
   color: white;
 }
@@ -176,166 +172,161 @@ justify-self: center;
   grid-gap: 5px;
   justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-
 }
 .grid-box {
   display: grid;
-
 }
-.letest-news-cover{
-  color:  black;
-
-}
-.grid-box a{
+.letest-news-cover {
   color: black;
 }
-.grid-box a h4:hover{
-  color:  tomato;
+.grid-box a {
+  color: black;
 }
-.grid-box a {width: 280px;
+.grid-box a h4:hover {
+  color: tomato;
 }
-.grid-box a img {width: 280px;
+.grid-box a {
+  width: 280px;
+}
+.grid-box a img {
+  width: 280px;
 }
 
 .grid-box h4 {
   margin-top: 0;
 }
-.main{
+.main {
   border: 1px solid black;
   display: grid;
 }
-.latest-news-title{
+.latest-news-title {
   grid-column: 1/-1;
   color: red;
   justify-self: flex-start;
   margin-left: 22px;
 }
-.latest-news-title h1:hover{
- color: black;
+.latest-news-title h1:hover {
+  color: black;
 }
-.latest-news-writer{
+.latest-news-writer {
   display: grid;
   width: 280px;
   grid-template-columns: 1fr;
 }
 
-.latest-news-writer p{
+.latest-news-writer p {
   margin-top: 0px;
 }
-.latest-news-writer p a{
-  color: #999999
-}
-.latest-news-writer p a:hover{
-  color: black;
-}
-.latest-news-writer i{
+.latest-news-writer p a {
   color: #999999;
 }
-.funding-articles{
+.latest-news-writer p a:hover {
+  color: black;
+}
+.latest-news-writer i {
+  color: #999999;
+}
+.funding-articles {
   display: grid;
   grid-gap: 15px;
   justify-self: center;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(10, 1fr);
-  border: 1px solid black;
   height: 400px;
   width: 95%;
   max-width: 1200px;
 }
-.funding-article-nav{
+.funding-article-nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-row: 1/3;
   grid-column: 1/-1;
 }
-.funding-article-nav a{
+.funding-article-nav a {
   color: #f42;
 }
-.funding-article-nav a:hover{
+.funding-article-nav a:hover {
   color: #000;
 }
-.funding-article-links{
+.funding-article-links {
   display: grid;
   grid-gap: 5px;
   justify-self: flex-end;
   justify-items: flex-end;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
-
-
 }
-.funding-article-links li{
+.funding-article-links li {
   border-right: 1px solid #f42;
   padding-right: 7px;
 }
-.funding-article-links li:last-of-type{
+.funding-article-links li:last-of-type {
   border: 0;
   justify-self: flex-start;
 }
-.funding-article-box{
-grid-row: 3/11;
+.funding-article-box {
+  grid-row: 3/11;
 }
-.funding-article-box-title img{
- height: 60px;
- width: 60px;
- position: absolute;
- margin: 10px 0 0 10px;
+.funding-article-box-title img {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  margin: 10px 0 0 10px;
 }
-.funding-article-box-title{
+.funding-article-box-title {
   background-color: #f42;
   height: 40px;
   width: 100%;
 }
-.funding-article-box-title p{
+.funding-article-box-title p {
   padding-left: 120px;
 
   padding-top: 10px;
 }
-.funding-article-box-subcribers{
+.funding-article-box-subcribers {
   background-color: rgb(255, 235, 232);
   height: 57px;
   width: 100%;
   margin-top: 0px;
-margin-bottom: 0px;
+  margin-bottom: 0px;
 }
-.funding-article-box-subcribers h4{
-margin-bottom: 0px;
-font-weight: bolder;
-padding-left: 130px;
-margin-top: 0px;
+.funding-article-box-subcribers h4 {
+  margin-bottom: 0px;
+  font-weight: bolder;
+  padding-left: 130px;
+  margin-top: 0px;
 }
-.funding-article-box-subcribers p{
+.funding-article-box-subcribers p {
   padding-left: 130px;
   margin-top: 5px;
-  }
-.funding-article-box-tags{
+}
+.funding-article-box-tags {
   background-color: rgb(255, 250, 248);
   display: grid;
-  border-bottom: 1px solid rgba(255,68,34,.25);
-    height: 83px;
-    width: 100%;
+  border-bottom: 1px solid rgba(255, 68, 34, 0.25);
+  height: 83px;
+  width: 100%;
 }
-.funding-article-box-tags a{
- margin: 10px;
- color: black;
+.funding-article-box-tags a {
+  margin: 10px;
+  color: black;
 }
-.funding-article-box-tags a i{
+.funding-article-box-tags a i {
   font-size: 20px;
   color: #000;
 }
-.funding-article-box-reading{
+.funding-article-box-reading {
   font-size: small;
   font-weight: lighter;
 }
 
-.apps-grid-tech
-{
+.apps-grid-tech {
   margin-left: auto;
   margin-right: auto;
   grid-gap: 40px;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .box-article {
@@ -348,7 +339,7 @@ margin-top: 0px;
   color: #f42;
 }
 
-.box-article h2 a:hover{
+.box-article h2 a:hover {
   color: black;
 }
 
@@ -363,9 +354,9 @@ margin-top: 0px;
 }
 
 .thumbnail h4 {
- color: white;
- margin-top: 0;
- font-weight: bold;
+  color: white;
+  margin-top: 0;
+  font-weight: bold;
 }
 
 .thumbnail h4 a {
@@ -377,7 +368,7 @@ margin-top: 0px;
 }
 
 .thumbnail small {
-  font-weight:lighter;
+  font-weight: lighter;
 }
 
 .little {
@@ -416,17 +407,16 @@ margin-top: 0px;
 }
 
 .latest-div img {
-
   height: 100%;
   width: 30%;
 }
 
 .box-article ul {
-padding: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 
 .box-article ul li {
-  border-bottom: 1px solid #EEEEEE;
+  border-bottom: 1px solid #eeeeee;
   padding-bottom: 5px;
   font-size: 0.8rem;
 }
@@ -441,5 +431,40 @@ ul li::before {
   font-weight: bold;
   display: inline-block;
   width: 1em;
-
+}
+.latest-deals{
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 95%;
+}
+.latest-deals-title a{
+color: #f42;
+}
+.latest-deals-title a:hover{
+  color: #000;
+  }
+.latest-deals-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.latest-deals-box {
+  display: flex;
+  flex-direction: column;
+}
+.latest-deals-box a {
+  color: #000;
+}
+.latest-deals-box a:hover {
+  color: #f42;
+}
+.latest-deals-box span {
+  text-decoration: line-through;
+  padding-right: 10px;
+}
+.latest-deals-box img {
+  width: 250px;
+  height: 200px;
 }
