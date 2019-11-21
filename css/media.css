@@ -23,6 +23,12 @@
   display: none;
 }
 }
+@media screen and (max-width: 1024px) {
+  .funding-articles{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+  }
+}
 @media screen and (max-width: 750px) {
   .dark-nav {
     display: none;

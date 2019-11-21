@@ -233,6 +233,7 @@ justify-self: center;
 }
 .funding-articles{
   display: grid;
+  grid-gap: 15px;
   justify-self: center;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(10, 1fr);
@@ -270,4 +271,59 @@ justify-self: center;
 .funding-article-links li:last-of-type{
   border: 0;
   justify-self: flex-start;
+}
+.funding-article-box{
+grid-row: 3/11;
+}
+.funding-article-box-title img{
+ height: 60px;
+ width: 60px;
+ position: absolute;
+ margin: 10px 0 0 10px;
+}
+.funding-article-box-title{
+  background-color: #f42;
+  height: 40px;
+  width: 100%;
+}
+.funding-article-box-title p{
+  padding-left: 120px;
+
+  padding-top: 10px;
+}
+.funding-article-box-subcribers{
+  background-color: rgb(255, 235, 232);
+  height: 57px;
+  width: 100%;
+  margin-top: 0px;
+margin-bottom: 0px;
+}
+.funding-article-box-subcribers h4{
+margin-bottom: 0px;
+font-weight: bolder;
+padding-left: 130px;
+margin-top: 0px;
+}
+.funding-article-box-subcribers p{
+  padding-left: 130px;
+  margin-top: 5px;
+  }
+.funding-article-box-tags{
+  background-color: rgb(255, 250, 248);
+  display: grid;
+  border-bottom: 1px solid rgba(255,68,34,.25);
+    height: 83px;
+    width: 100%;
+}
+.funding-article-box-tags a{
+ margin: 10px;
+ color: black;
+}
+.funding-article-box-tags a i{
+  font-size: 20px;
+  color: #000;
+}
+.funding-article-box-reading{
+  font-size: small;
+  font-weight: lighter;
 }
