@@ -17,7 +17,7 @@
     margin-bottom: 0px;
     color: white;
     font-size: 20px;
-  
+
   }
 .cover-logo{
   display: none;
@@ -33,6 +33,15 @@
     }
   .b4{
     display: none;
+  }
+
+  .apps-grid-tech
+  {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
   }
 }
 @media screen and (max-width: 750px) {
@@ -56,7 +65,7 @@
     margin-bottom: 0px;
     color: white;
     font-size: 20px;
-  
+
   }
 .cover-logo{
   display: none;
@@ -102,7 +111,7 @@ width: auto;
   height: 1050px;
   justify-self: flex-start;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(14,1fr); 
+  grid-template-rows: repeat(14,1fr);
 
 }
 .funding-article-nav{
@@ -129,6 +138,16 @@ width: auto;
 .b4{
 display: none;
 }
+
+.apps-grid-tech
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
 }
 @media screen and (max-width: 470px) {
   .nav {
