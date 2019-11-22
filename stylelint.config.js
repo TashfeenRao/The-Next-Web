@@ -77,6 +77,7 @@ module.exports = {
     "no-eol-whitespace": true,
     "no-missing-end-of-source-newline": true,
     "no-descending-specificity": false,
+    "no-duplicate-selectors": false,
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
     "property-case": "lower",
