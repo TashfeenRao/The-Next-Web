@@ -76,13 +76,15 @@ module.exports = {
     "media-query-list-comma-space-before": "never",
     "no-eol-whitespace": true,
     "no-missing-end-of-source-newline": true,
+    "no-descending-specificity": false,
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
     "property-case": "lower",
     "rule-empty-line-before": [ "always-single-line", {
       except: ["first-nested"],
-      ignore: ["after-comment"],["no-descending-specificity"]
+      ignore: ["after-comment"],
     } ],
+   
     "selector-attribute-brackets-space-inside": "never",
     "selector-attribute-operator-space-after": "never",
     "selector-attribute-operator-space-before": "never",
