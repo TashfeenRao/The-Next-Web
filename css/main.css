@@ -94,7 +94,6 @@ li {
   grid-area: main-article;
   display: grid;
   grid-gap: 10px;
-  background-color: grey;
   background: linear-gradient(to bottom, transparent, rgb(163, 71, 61) 150%),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Copy-of-Copy-of-Copy-of-...-1-2-796x417.png")
       no-repeat;

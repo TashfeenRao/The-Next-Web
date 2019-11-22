@@ -21,7 +21,6 @@ module.exports = {
     "block-opening-brace-space-after": "always-single-line",
     "block-opening-brace-space-before": "always",
     "color-hex-case": "lower",
-    "color-hex-length": "short",
     "comment-empty-line-before": [ "always", {
       except: ["first-nested"],
       ignore: ["stylelint-commands"],
@@ -82,7 +81,7 @@ module.exports = {
     "property-case": "lower",
     "rule-empty-line-before": [ "always-single-line", {
       except: ["first-nested"],
-      ignore: ["after-comment"],
+      ignore: ["after-comment"],["no-descending-specificity"]
     } ],
     "selector-attribute-brackets-space-inside": "never",
     "selector-attribute-operator-space-after": "never",
