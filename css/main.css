@@ -122,7 +122,7 @@ li {
 }
 .date {
   color: honeydew;
-  justify-self: center;
+  justify-self: right;
 }
 .title-bottom {
   display: grid;
@@ -153,6 +153,7 @@ li {
       no-repeat;
   background-size: cover;
 }
+
 .side-article-header {
   display: grid;
   width: 400px;
@@ -212,7 +213,10 @@ li {
   width: 280px;
   grid-template-columns: 1fr;
 }
-
+.letest-news-time {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .latest-news-writer p {
   margin-top: 0px;
 }
@@ -431,18 +435,18 @@ li {
   display: inline-block;
   width: 1em;
 }
-.latest-deals{
+.latest-deals {
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
   width: 95%;
 }
-.latest-deals-title a{
-color: #f42;
+.latest-deals-title a {
+  color: #f42;
 }
-.latest-deals-title a:hover{
+.latest-deals-title a:hover {
   color: #000;
-  }
+}
 .latest-deals-container {
   display: grid;
   grid-gap: 10px;
@@ -467,34 +471,33 @@ color: #f42;
   width: 250px;
   height: 200px;
 }
-footer{
+footer {
   height: 275px;
   display: flex;
   flex-direction: column;
 }
-.grey-footer{
+.grey-footer {
   height: 175px;
   background: #333333;
 }
-.black-footer{
+.black-footer {
   height: 100px;
   background: #000000;
 }
-.social-icons{
+.social-icons {
   display: flex;
   justify-content: center;
   text-align: center;
   height: 75px;
 }
-.social-icons-box{
+.social-icons-box {
   list-style: none;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   width: 400px;
 }
-.btn{
-  background-color:
-  rgb(51, 51, 51);
+.btn {
+  background-color: rgb(51, 51, 51);
   background-position-x: 0%;
   background-position-y: 0%;
   background-repeat: repeat;
@@ -512,25 +515,26 @@ footer{
   height: 33px;
   padding: 6px;
 }
-.btn:hover{
+.btn:hover {
   color: #999999;
 }
-.btn i{
+.btn i {
   padding-top: 10px;
 }
-.social-links{
+.social-links {
   display: flex;
   justify-content: center;
   text-align: center;
   height: 75px;
 }
-.links{
+.links {
   list-style: none;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   width: 400px;
 }
-.black-footer{
+.black-footer {
   color: white;
   text-align: center;
+  height: 97px;
 }
