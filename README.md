@@ -22,19 +22,19 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-  <h3 align="center">Smashing Magzine</h3>
+  <h3 align="center">The Next Web</h3>
 
   <p align="center">
-   Design Tear down
+   News Website Clone
     <br />
-    <a href=https://github.com/TashfeenRao/Smashing-Magaznie.git><strong>Explore the docs »</strong></a>
+    <a href=https://github.com/TashfeenRao/The-Next-Web.git><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href=https://github.com/TashfeenRao/Smashing-Magaznie.git>View Demo</a>
+    <a href=https://github.com/TashfeenRao/The-Next-Web.git>View Demo</a>
     .
-    <a href=https://github.com/TashfeenRao/Smashing-Magaznie.git>Report Bug</a>
+    <a href=https://github.com/TashfeenRao/The-Next-Web.git>Report Bug</a>
     .
-    <a href=https://github.com/TashfeenRao/Smashing-Magaznie.git>Request Feature</a>
+    <a href=https://github.com/TashfeenRao/The-Next-Web.git>Request Feature</a>
   </p>
 </p>
 
@@ -55,7 +55,7 @@
 ## About The Project
 
 It is an html and css base project. some Gradient styling is used for navbar.
-It is design tear down Website.
+It is News Website.
 it is an html and css base project. some Gradient styling is used for navbar.
 
 
@@ -78,7 +78,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
  Leonardo Couto -leocoutobrasil@gmail.com
  
 
-Project Link: https://github.com/TashfeenRao/Smashing-Magaznie.git
+Project Link: https://github.com/TashfeenRao/The-Next-Web.git
 Live Preview -
 
 
