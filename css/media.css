@@ -1,5 +1,4 @@
 @media screen and (max-width: 1070px) {
-
   .article-title {
     font-size: 20px;
     color: white;
@@ -87,7 +86,7 @@
     border-left: 1px solid #eee;
   }
   .sm-nav-right li {
-   padding: 10px;
+    padding: 10px;
   }
   .sm-nav-right li a:hover {
     color: black;

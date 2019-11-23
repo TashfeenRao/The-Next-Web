@@ -14,7 +14,6 @@ li {
   grid-gap: 10px;
 }
 .nav {
- 
 }
 .dark-nav {
   display: grid;
@@ -174,7 +173,7 @@ li {
   height: 200px;
 }
 .latest-news-title p span {
-text-decoration: none;
+  text-decoration: none;
 }
 .latest-news-title a:hover {
   color: #f42;
