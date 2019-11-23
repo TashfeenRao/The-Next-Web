@@ -12,6 +12,7 @@
     display: none;
   }
 }
+
 @media screen and (max-width: 1024px) {
   .dark-nav {
     grid-template-columns: 1fr;
