@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: "Maven Pro", sans-serif;
 }
-* a,
+a,
 li {
   color: #999999;
   text-decoration: none;
@@ -14,7 +14,7 @@ li {
   grid-gap: 10px;
 }
 .nav {
-  display: grid;
+ 
 }
 .dark-nav {
   display: grid;
@@ -99,7 +99,7 @@ li {
       no-repeat;
   background-size: cover;
   background-position: bottom right;
-  padding: 50px;
+  padding: 0px 0px 0px 0px;
 }
 .cover-logo {
   display: grid;
@@ -166,67 +166,18 @@ li {
   font-size: 15px;
   color: white;
 }
-
-.grid-articles {
-  display: grid;
-  grid-gap: 5px;
-  justify-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-}
-.grid-box {
-  display: grid;
-}
-.letest-news-cover {
-  color: black;
-}
-.grid-box a {
-  color: black;
-}
-.grid-box a h4:hover {
-  color: tomato;
-}
-.grid-box a {
-  width: 280px;
-}
-.grid-box a img {
-  width: 280px;
-}
-
-.grid-box h4 {
-  margin-top: 0;
-}
 .main {
   display: grid;
 }
-.latest-news-title {
-  grid-column: 1/-1;
-  color: red;
-  justify-self: flex-start;
-  margin-left: 22px;
+.latest-news a img {
+  width: 270px;
+  height: 200px;
 }
-.latest-news-title h1:hover {
-  color: black;
+.latest-news-title p span {
+text-decoration: none;
 }
-.latest-news-writer {
-  display: grid;
-  width: 280px;
-  grid-template-columns: 1fr;
-}
-.letest-news-time {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.latest-news-writer p {
-  margin-top: 0px;
-}
-.latest-news-writer p a {
-  color: #999999;
-}
-.latest-news-writer p a:hover {
-  color: black;
-}
-.latest-news-writer i {
-  color: #999999;
+.latest-news-title a:hover {
+  color: #f42;
 }
 .funding-articles {
   display: grid;

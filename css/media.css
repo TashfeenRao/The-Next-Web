@@ -1,14 +1,5 @@
 @media screen and (max-width: 1070px) {
-  .dark-nav {
-    display: none;
-  }
-  .articles {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-areas:
-      "main-article main-article"
-      "side-article-1 side-article-2";
-  }
+
   .article-title {
     font-size: 20px;
     color: white;
@@ -22,8 +13,16 @@
     display: none;
   }
 }
-
 @media screen and (max-width: 1024px) {
+  .dark-nav {
+    grid-template-columns: 1fr;
+  }
+  .dark-nav-right-links {
+    display: none;
+  }
+  .article-header {
+    width: 400px;
+  }
   .funding-articles {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(14, 1fr);
@@ -57,7 +56,7 @@
   }
   .sm-nav {
     display: grid;
-    grid-template-columns: 1fr 70px;
+    grid-template-columns: 1fr 100px;
     grid-template-rows: 50px;
     font-size: 20px;
   }
@@ -86,6 +85,9 @@
     margin-top: 0px;
     margin-bottom: 0px;
     border-left: 1px solid #eee;
+  }
+  .sm-nav-right li {
+   padding: 10px;
   }
   .sm-nav-right li a:hover {
     color: black;
@@ -196,6 +198,10 @@
     display: grid;
     grid-template-columns: 1fr 6fr;
     grid-gap: 5px;
+  }
+  .latest-news a img {
+    width: 75px;
+    height: 75px;
   }
   .latest-deals-box img {
     height: 75px;
