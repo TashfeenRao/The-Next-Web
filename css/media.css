@@ -1,3 +1,8 @@
+@media screen and (min-width: 1070px) {
+  .logo {
+    display: none;
+  }
+}
 @media screen and (max-width: 1070px) {
   .article-title {
     font-size: 20px;
@@ -11,6 +16,9 @@
   .cover-logo {
     display: none;
   }
+  .main-cover {
+    margin-top: 100px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,7 +31,6 @@
   .article-header {
     width: 400px;
   }
-
   main {
     justify-content: center;
     min-width: 700px;
@@ -38,11 +45,6 @@
     flex-flow: column wrap;
     justify-content: space-between;
   }
-
-  .main-cover {
-    margin-top: 0;
-  }
-
   .second-cover {
     margin-top: 0;
   }
